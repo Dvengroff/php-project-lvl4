@@ -1,6 +1,5 @@
-setup:
+install:
 	composer install
-	npm install
 
 run:
 	php artisan serve
