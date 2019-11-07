@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
+    Log::debug('Boot welcome page');
     return view('welcome');
 });
